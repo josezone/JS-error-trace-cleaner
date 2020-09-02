@@ -2,10 +2,10 @@
   "name": "JS-error-trace-cleaner",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist/src"
+    "dist"
   ],
   "license": "Apache-2.0",
   "keywords": [],

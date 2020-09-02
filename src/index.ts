@@ -11,10 +11,4 @@ function clean(error: Error): string {
   return `${err}\n${stack}`.substr(0, 150);
 }
 
-const x = new Error('test')
-
-console.log(x)
-
-console.log(clean(x))
-
 export default clean;
