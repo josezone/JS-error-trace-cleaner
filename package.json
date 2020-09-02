@@ -28,7 +28,8 @@
     "typescript": "^3.8.3"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://www.npmjs.com/package/js-error-trace-cleaner"
   },
   "repository": {
     "type": "git",
