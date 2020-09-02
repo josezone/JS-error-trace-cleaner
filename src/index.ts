@@ -1,4 +1,4 @@
-function clean(error: Error): string {
+export = function clean(error: Error): string {
   const msg = error.message;
   const err = msg.replace(/^Error: /, '');
   const stack = error
@@ -9,6 +9,4 @@ function clean(error: Error): string {
     .replace(/(?: \(|@)http.+\/([^/)]+)\)?(?:\n|$)/gm, '@$1\n')
     .replace(/ *\(eval code(:\d+:\d+)\)(?:\n|$)/gm, '@???$1\n');
   return `${err}\n${stack}`.substr(0, 150);
-}
-
-export default clean;
+};

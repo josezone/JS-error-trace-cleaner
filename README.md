@@ -21,11 +21,11 @@ Module._compile (internal/modules/cjs/loader.js:11
 
 ### Import
 ```js
-const clean = require("JS-error-trace-cleaner");
+const clean = require("js-error-trace-cleaner");
 ```
 or
 ```js
-import clean from "JS-error-trace-cleaner";
+import clean from "js-error-trace-cleaner";
 ```
 ### Example Usage
 ```js
