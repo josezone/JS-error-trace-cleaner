@@ -2,10 +2,10 @@
   "name": "",
   "version": "0.0.0",
   "description": "",
-  "main": "build/src/index.js",
-  "types": "build/src/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "files": [
-    "build/src"
+    "dist/src"
   ],
   "license": "Apache-2.0",
   "keywords": [],
@@ -26,5 +26,8 @@
     "jest": "^26.4.2",
     "ts-jest": "^26.3.0",
     "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
