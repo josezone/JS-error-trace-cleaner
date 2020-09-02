@@ -31,3 +31,12 @@ import clean from "js-error-trace-cleaner";
 ```js
 clean(new Error())
 ```
+
+## Contributing
+
+Read our [contributing guide](/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to js-error-trace-cleaner.
+
+## Changelog
+
+Recently Updated?
+Please read the [changelog](/CHANGELOG.md).
